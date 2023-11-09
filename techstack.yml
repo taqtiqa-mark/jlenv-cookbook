@@ -1,0 +1,39 @@
+repo_name: taqtiqa-mark/jlenv-cookbook
+report_id: 92e462e541e930f107a00fae20bcde5e
+repo_type: Public
+timestamp: '2023-11-09T23:33:46+00:00'
+requested_by: taqtiqa-mark
+provider: github
+branch: master
+detected_tools_count: 3
+tools:
+- name: Ruby
+  description: A dynamic, interpreted, open source programming language with a focus
+    on simplicity and productivity
+  website_url: https://www.ruby-lang.org
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/989/ruby.png
+  detection_source: Repo Metadata
+- name: CircleCI
+  description: Automate your development process quickly, safely, and at scale
+  website_url: https://circleci.com/
+  open_source: false
+  hosted_saas: true
+  category: Build, Test, Deploy
+  sub_category: Continuous Integration
+  image_url: https://img.stackshare.io/service/190/CvqrSSFs_400x400.jpg
+  detection_source: ".circleci/config.yml"
+  last_updated_by: Dan Webb
+  last_updated_on: 2018-10-05 19:11:09.000000000 Z
+- name: Git
+  description: Fast, scalable, distributed revision control system
+  website_url: http://git-scm.com/
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Version Control System
+  image_url: https://img.stackshare.io/service/1046/git.png
+  detection_source: Repo Metadata
